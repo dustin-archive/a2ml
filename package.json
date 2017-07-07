@@ -1,0 +1,22 @@
+{
+  "name": "a2ml",
+  "version": "0.1.0",
+  "description": "Create HTML strings from arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whaaaley/a2ml.git"
+  },
+  "author": "Dustin Dowell <dustindowell22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whaaaley/a2ml/issues"
+  },
+  "homepage": "https://github.com/whaaaley/a2ml#readme",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  }
+}
