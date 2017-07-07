@@ -4,7 +4,7 @@ const createElement = h => {
 
   // set attributes
   for (let attr in h[1]) {
-    node += ` ${attr}='${data[attr]}'`
+    node += ` ${attr}='${h[1][attr]}'`
   }
 
   // end open tag
