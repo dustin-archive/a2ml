@@ -11,7 +11,7 @@ const createElement = h => {
   node += '>'
 
   // append children
-  if (h[1].constructor === Array) {
+  if (h[2].constructor === Array) {
     for (let i = 0, l = h[2].length; i < l; i++) {
       node += createElement(h[2][i])
     }
